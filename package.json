@@ -7,12 +7,15 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test-vitest": "vitest"
+    "test:vitest": "vitest"
   },
   "dependencies": {
+    "eventemitter3": "^5.0.1",
+    "mock-socket": "^9.3.1",
     "next": "15.3.1",
     "react": "^19",
-    "react-dom": "^19"
+    "react-dom": "^19",
+    "ws": "^8.18.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
@@ -37,6 +40,7 @@
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "jsdom": "^26.1.0",
+    "msw": "^2.7.5",
     "prettier": "^3.5.3",
     "tailwindcss": "^4",
     "ts-node": "^10.9.2",
